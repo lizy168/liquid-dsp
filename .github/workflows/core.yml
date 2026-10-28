@@ -12,7 +12,7 @@ jobs:
       matrix:
         runs-on: [ubuntu-latest, macos-latest]
 
-    name: "💦 ${{ matrix.runs-on }}"
+    name: "馃挦 ${{ matrix.runs-on }}"
     runs-on: ${{ matrix.runs-on }}
 
     steps:
